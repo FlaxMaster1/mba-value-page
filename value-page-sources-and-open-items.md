@@ -54,7 +54,7 @@ VIP-X is the only exception. I used it because few recent stories show rigor in 
 3. **Can transcript content be used?** Roberts or the MBA team needs to approve every item flagged on the page. The transcript is titled "Unsubmitted Campaign," and its wording is lightly adapted in the definitions.
 4. **Which AI tools can be named?** Roberts mentions Codex and Claude Code; the Pre-Term story says ChatGPT and Claude. The page names neither and says "school-supported AI tools."
 5. **Does the intro meet the brief?** The notes ask for why Wharton is better than everything else, but Roberts declines to compare Wharton with other schools in the transcript. The intro makes no comparison, so leadership should confirm that works.
-6. **Is "Attend an event" the main next step?** The streamlined page makes it the one button and leaves coffee chats and stories as text links. I chose events because it's the next step already listed first on the page, and no source names a primary action.
+6. **Is "Attend an event" the main next step?** The streamlined page makes it the one button and leaves the coffee chat as a text link. The "Read more MBA stories" link was removed on November 4, 2026, at your request. I chose events because it's the next step already listed first on the page, and no source names a primary action.
 
 ## Assets and content still open
 
@@ -88,7 +88,7 @@ Reviewed November 4, 2026, using the framework's Design Decision Framework and l
 | Removed two AI sentences | The recruiter sentence added little, and the workshop sentence couldn't be confirmed. Removed text: "Those are the abilities recruiters will test when they ask how you use AI." and "This fall, Roberts and faculty colleagues Ethan Mollick, Kartik Hosanagar, and Daniel Rock also led a workshop series showing students how they use AI in their own work." |
 | One quote per section instead of two | Gives each section one clear voice. The Kong, Sucoff, and Mambuca quotes are still listed above if you want them back. |
 | Two stories per section, in a smaller side-by-side layout | Keeps the strongest proof and shortens the page. The two cut stories are listed above. |
-| One button at the end, with two text links | The recipes call for one main action rather than several competing ones. See decision 6. |
+| One button at the end, with a text link | The recipes call for one main action rather than several competing ones. See decision 6. |
 | Section titles in bold | The notes ask for this, and the old theme's section headings aren't bold by default. |
 
 Moved on November 4, 2026: the "Hear It From Wharton's Leaders" section, with the video, now sits directly under the three boxes instead of at the bottom.
