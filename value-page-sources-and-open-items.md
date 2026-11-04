@@ -67,8 +67,18 @@ VIP-X is the only exception. I used it because few recent stories show rigor in 
 - **Card images:** these load from the live stories. Confirm usage rights and upload them to the WordPress media library.
 - **"Automate the easy so you can do the hard":** left off because the notes and brief list it only as potential messaging, with no attributed speaker.
 
+## Old theme
+
+Applied November 4, 2026, using `old-theme` from `wharton-prototype-framework` at commit `8fa40e2`. The framework repo itself was not changed.
+
+- **How it's built:** the header, footer, and base styles come from a framework build and are combined with the page content into one HTML file. The page isn't a `sites/` entry in the framework because its inline links, quotes, and review flags don't fit the framework's plain-text sections. Page-specific styles sit in a separate block.
+- **Layout changes:** story dates now sit above the titles, each story card has a "Read story →" line as in the framework's story card, and the three closing links are now buttons. All other page copy, quotes, and links match the previous draft.
+- **Header and footer links:** copied from the live MBA site on November 4, 2026.
+- **Left out:** site search, the footer's social links and Support Wharton button (no slot in the framework's footer), and the Faculty & Staff and CMS login links (internal). The copyright line is replaced with "Internal draft prototype. Not an official Wharton page."
+- **Fonts and logos:** these load from `martechdev.wharton.upenn.edu`, as the framework specifies, so they depend on that host staying available.
+
 ## Before going live
 
 - Delete the review bar, flags, placeholder, toggle script, and `noindex` tag.
-- Move the CSS into the theme and retest. The site's licensed Acumin and Minion fonts don't load in this file, so the review copy uses fallback fonts.
+- Move the page-specific styles into the WordPress theme and retest there.
 - Have a person test with a screen reader. I did not run one.
