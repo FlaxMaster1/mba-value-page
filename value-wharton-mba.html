@@ -70,6 +70,17 @@
   .vp-placeholder { display: flex; flex-direction: column; justify-content: center; block-size: 100%; padding: 1.5rem; background: #fff4d6; color: #5c4300; border: 2px dashed #d9a400; font-size: 1rem; line-height: 1.4; }
   .vp-placeholder strong { font-family: var(--font-family-sans-bold); font-weight: 400; display: block; margin-block-end: 0.375rem; }
 
+  /* Section titles in bold, per the project notes */
+  .vp-pillar h2, .vp-closing h2 { font-family: var(--font-family-serif-bold); }
+  .vp-next { align-items: center; column-gap: 1.5rem; }
+  .vp-next a:not(.c-button) { font-family: var(--font-family-sans-bold); text-decoration: underline; text-underline-offset: 2px; padding-block: 0.25rem; display: inline-block; }
+  @media (min-width: 56.26rem) {
+    .vp-story { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); grid-template-rows: minmax(0, 1fr); align-content: stretch; block-size: 100%; }
+    .vp-story .u-responsive-media { position: relative; margin: 0; }
+    .vp-story .u-responsive-media img { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; aspect-ratio: auto; }
+    .vp-story .c-card__body { align-content: start; }
+    .vp-story img[src*="Harry-Kong"] { object-position: 8% 50%; }
+  }
   @media (max-width: 56.25rem) {
     .vp-review { position: static; }
     .vp-cols { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
@@ -96,17 +107,14 @@
           <li><article class="c-card c-card--editorial vp-box"><div class="c-card__body">
             <h3 class="c-card__title"><a href="#rigor">Invaluable Rigor</a></h3>
             <p>Rigor is a necessary condition for getting value out of an MBA. The reps, the critical thinking, and the judgment built in uncomfortable situations are the muscles that speak for you in an interview or a promotion setting; the degree alone won’t. <span class="vp-flag">Transcript language</span></p>
-            <p class="vp-jump"><a href="#rigor">See what rigor looks like</a></p>
           </div></article></li>
           <li><article class="c-card c-card--editorial vp-box"><div class="c-card__body">
-            <h3 class="c-card__title"><a href="https://www.wharton.upenn.edu/ai-advantage/">Decision Making in the Age of AI</a></h3>
+            <h3 class="c-card__title"><a href="#ai">Decision Making in the Age of AI</a></h3>
             <p>AI can do the analysis, but you remain responsible for the decisions you make and the actions you take. Wharton prepares leaders who pair business expertise with technological expertise, use AI with good judgment, and stay accountable for the outcome. <span class="vp-flag">Transcript language</span></p>
-            <p class="vp-jump"><a href="#ai">See how judgment is built</a></p>
           </div></article></li>
           <li><article class="c-card c-card--editorial vp-box"><div class="c-card__body">
             <h3 class="c-card__title"><a href="#community">Community Above All Else</a></h3>
             <p>The Wharton community is defined by the instinct to give back: people sharing their time and expertise with no expectation in return. In Michael Roberts’ words, “That’s community, that’s not a network.” <span class="vp-flag">Transcript language</span></p>
-            <p class="vp-jump"><a href="#community">See the community at work</a></p>
           </div></article></li>
         </ul>
       </div>
@@ -118,7 +126,6 @@
         <div class="vp-cols">
           <div>
             <p>Rigor at Wharton isn’t difficulty for its own sake. It starts with a question faculty ask before putting anything in front of students: how is this going to help them after they leave? That focus on application and relevance runs through the <a href="https://mba.wharton.upenn.edu/mba-curriculum/">MBA curriculum</a> and the <a href="https://mba.wharton.upenn.edu/mba-majors/">majors</a> students choose to go deeper. <span class="vp-flag">Transcript language</span></p>
-            <p>Classrooms are built for discussion and group work, so you practice defending an analysis and communicating it well enough to get the resources it needs. Teaching draws on both academic research and faculty work with executives and companies, and what faculty learn there keeps returning to the classroom. <span class="vp-flag">Transcript language</span></p>
             <p>That preparation is what you carry into recruiting and beyond. See where graduates go in the <a href="https://mba.wharton.upenn.edu/career-report/">MBA Career Report</a>, and how <a href="https://mba.wharton.upenn.edu/mba-career-services/">MBA Career Services</a> supports the search.</p>
           </div>
           <div>
@@ -126,30 +133,19 @@
               <blockquote>“Entering an MBA program that doesn’t have or lacks rigor is like joining a gym and not working out.”</blockquote>
               <figcaption>Michael Roberts, Vice Dean of the MBA Program <span class="vp-flag">Unpublished transcript: needs approval</span></figcaption>
             </figure>
-            <figure class="vp-quote">
-              <blockquote>“Being part of a group of students who take quantitative methods seriously — and who come at them from very different angles — sharpened how I think about my own work.”</blockquote>
-              <figcaption>Harry Kong, WG’26, in <a href="https://mba.wharton.upenn.edu/story/reflections-from-a-jacobs-scholar-mba-graduate/">Reflections From a Jacobs Scholar MBA Graduate</a></figcaption>
-            </figure>
           </div>
         </div>
 
         <h3 class="vp-proof-title">Rigor in practice</h3>
-        <ul class="p-card-grid p-card-grid--editorial vp-list" role="list" style="--grid-columns: 3">
-          <li><article class="c-card c-card--editorial vp-story">
+        <ul class="p-card-grid p-card-grid--editorial vp-list" role="list" style="--grid-columns: 2">
+          <li><article class="c-card c-card--compact vp-story">
             <figure class="u-responsive-media"><img src="https://dca.wharton.upenn.edu/wp-content/uploads/2026/06/Harry-Kong-and-Bruce-Jacobs-2-1199x531.jpg" alt="" loading="lazy" decoding="async"></figure>
             <div class="c-card__body">
               <p class="c-eyebrow"><time datetime="2026-06-12">June 12, 2026</time></p><h4 class="c-card__title"><a href="https://mba.wharton.upenn.edu/story/reflections-from-a-jacobs-scholar-mba-graduate/">Reflections From a Jacobs Scholar MBA Graduate</a></h4>
               <p>A former energy investor connects practitioner models to the academic foundations of quantitative finance.</p><span class="c-card__action" aria-hidden="true">Read story →</span>
             </div>
           </article></li>
-          <li><article class="c-card c-card--editorial vp-story">
-            <figure class="u-responsive-media"><img src="https://dca.wharton.upenn.edu/wp-content/uploads/2026/07/Michael-Roberts-Proof-68-1199x799.jpg" alt="" loading="lazy" decoding="async"></figure>
-            <div class="c-card__body">
-              <p class="c-eyebrow"><time datetime="2026-08-03">August 3, 2026</time></p><h4 class="c-card__title"><a href="https://mba.wharton.upenn.edu/story/meet-whartons-new-mba-vice-dean-michael-roberts/">Meet Wharton’s New MBA Vice Dean, Michael Roberts</a></h4>
-              <p>The longtime finance professor on academic excellence, data-driven decision making, and his priorities for the program.</p><span class="c-card__action" aria-hidden="true">Read story →</span>
-            </div>
-          </article></li>
-          <li><article class="c-card c-card--editorial vp-story">
+          <li><article class="c-card c-card--compact vp-story">
             <figure class="u-responsive-media"><img src="https://dca.wharton.upenn.edu/wp-content/uploads/2026/03/pexels-polina-tankilevitch-7382452-1199x799.jpg" alt="" loading="lazy" decoding="async"></figure>
             <div class="c-card__body">
               <p class="c-eyebrow"><time datetime="2026-03-30">March 30, 2026</time></p><h4 class="c-card__title"><a href="https://mba.wharton.upenn.edu/story/inside-vip-x-philadelphia-how-wharton-mba-founders-are-scaling-startups/">Inside VIP-X Philadelphia: How Wharton MBA Founders Are Scaling Startups</a></h4>
@@ -166,9 +162,8 @@
         <h2 id="ai-heading"><a href="https://www.wharton.upenn.edu/ai-advantage/">Decision Making in the Age of AI</a></h2>
         <div class="vp-cols">
           <div>
-            <p>Michael Roberts uses AI seven to eight hours a day, and he says better models have made his judgment and domain expertise more important, not less. When he asks alumni and employers what they want in new hires, they ask for more than AI proficiency: using the technology responsibly, with good judgment and critical thinking, while staying accountable for the decisions that follow. Those are the abilities <a href="https://mba.wharton.upenn.edu/mba-career-services/">recruiters</a> will test when they ask how you use AI. <span class="vp-flag">Transcript language</span></p>
+            <p>Michael Roberts uses AI seven to eight hours a day, and he says better models have made his judgment and domain expertise more important, not less. When he asks alumni and employers what they want in new hires, they ask for more than AI proficiency: using the technology responsibly, with good judgment and critical thinking, while staying accountable for the decisions that follow. <span class="vp-flag">Transcript language</span></p>
             <p>The work starts before the first class. In <a href="https://www.wharton.upenn.edu/whartons-mba-experience-begins-with-teamwork-leadership-and-ai/">Pre-Term</a>, students receive school-supported AI tools and attend a required session on how generative AI works, what it can do, and where it can go wrong. From there, they can pursue the <a href="https://www.wharton.upenn.edu/how-wharton-prepares-business-leaders-in-the-ai-era/">Artificial Intelligence for Business major</a>, take electives, and join AI-focused student organizations.</p>
-            <p>This fall, Roberts and faculty colleagues Ethan Mollick, Kartik Hosanagar, and Daniel Rock also led a workshop series showing students how they use AI in their own work. <span class="vp-flag">Transcript only: confirm before use</span></p>
             <p class="vp-cta"><a href="https://www.wharton.upenn.edu/ai-advantage/">Explore the Wharton AI Advantage</a> <span class="vp-flag">Confirm this is the intended AI page</span></p>
           </div>
           <div>
@@ -176,23 +171,19 @@
               <blockquote>“AI has raised the bar for everyone by producing more of the work. The value of a Wharton MBA is the ability to think a problem through, make the call, and answer for it.”</blockquote>
               <figcaption>Michael Roberts, Vice Dean of the MBA Program, on <a href="https://www.wharton.upenn.edu/ai-advantage/">The Wharton AI Advantage</a></figcaption>
             </figure>
-            <figure class="vp-quote">
-              <blockquote>“I think soft skills and empathetic leadership are going to differentiate individuals moving forward in the age of AI, so investing in programs to help future leaders understand people, understand our world, and lead with empathy is critical.”</blockquote>
-              <figcaption>Perri Sucoff, WG’27, in <a href="https://alumni.wharton.upenn.edu/uncategorized/through-wharton-works-mba-students-expand-access-to-opportunity/">Through Wharton WORKS, MBA Students Expand Access to Opportunity</a></figcaption>
-            </figure>
           </div>
         </div>
 
         <h3 class="vp-proof-title">AI in the MBA experience</h3>
         <ul class="p-card-grid p-card-grid--editorial vp-list" role="list" style="--grid-columns: 2">
-          <li><article class="c-card c-card--editorial vp-story">
+          <li><article class="c-card c-card--compact vp-story">
             <figure class="u-responsive-media"><img src="https://www.wharton.upenn.edu/wp-content/uploads/2026/08/highlight_05-600x500.jpg" alt="" loading="lazy" decoding="async"></figure>
             <div class="c-card__body">
               <p class="c-eyebrow"><time datetime="2026-08-27">August 27, 2026</time></p><h4 class="c-card__title"><a href="https://www.wharton.upenn.edu/whartons-mba-experience-begins-with-teamwork-leadership-and-ai/">Wharton’s MBA Experience Begins With Teamwork, Leadership, and AI</a></h4>
               <p>How Pre-Term introduces AI alongside leadership, ethics, and career planning, with judgment at the center.</p><span class="c-card__action" aria-hidden="true">Read story →</span>
             </div>
           </article></li>
-          <li><article class="c-card c-card--editorial vp-story">
+          <li><article class="c-card c-card--compact vp-story">
             <figure class="u-responsive-media"><img src="https://dca.wharton.upenn.edu/wp-content/uploads/2026/09/GAIL-Studio-Meeting-1199x536.jpg" alt="" loading="lazy" decoding="async"></figure>
             <div class="c-card__body">
               <p class="c-eyebrow"><time datetime="2026-09-11">September 11, 2026</time></p><h4 class="c-card__title"><a href="https://mba.wharton.upenn.edu/story/learning-by-building-inside-whartons-generative-ai-studio/">Learning by Building: Inside Wharton’s Generative AI Studio</a></h4>
@@ -216,34 +207,23 @@
               <blockquote>“We made something wonderful, and the community we built will last well beyond it.”</blockquote>
               <figcaption>Ami Higuchi, WG’26, in <a href="https://mba.wharton.upenn.edu/story/beyond-hollywood-whartons-media-entertainment-trek-builds-something-bigger/">Beyond Hollywood</a></figcaption>
             </figure>
-            <figure class="vp-quote">
-              <blockquote>“It is so important for Wharton to both have and expand on programs like this because it builds well-rounded people — not just great business minds, but great people who have business minds.”</blockquote>
-              <figcaption>Carley Mambuca, WG’27, on the WORKS program, in <a href="https://alumni.wharton.upenn.edu/uncategorized/through-wharton-works-mba-students-expand-access-to-opportunity/">Through Wharton WORKS, MBA Students Expand Access to Opportunity</a></figcaption>
-            </figure>
           </div>
         </div>
 
         <h3 class="vp-proof-title">Community in action</h3>
-        <ul class="p-card-grid p-card-grid--editorial vp-list" role="list" style="--grid-columns: 3">
-          <li><article class="c-card c-card--editorial vp-story">
+        <ul class="p-card-grid p-card-grid--editorial vp-list" role="list" style="--grid-columns: 2">
+          <li><article class="c-card c-card--compact vp-story">
             <figure class="u-responsive-media"><img src="https://dca.wharton.upenn.edu/wp-content/uploads/2026/05/pexels-caleboquendo-15689003-1199x799.jpg" alt="" loading="lazy" decoding="async"></figure>
             <div class="c-card__body">
               <p class="c-eyebrow"><time datetime="2026-05-18">May 18, 2026</time></p><h4 class="c-card__title"><a href="https://mba.wharton.upenn.edu/story/beyond-hollywood-whartons-media-entertainment-trek-builds-something-bigger/">Beyond Hollywood: Wharton’s Media &amp; Entertainment Trek Builds Something Bigger</a></h4>
               <p>A student leader on two years of club treks, and the dinners and conversations that outlasted the company visits.</p><span class="c-card__action" aria-hidden="true">Read story →</span>
             </div>
           </article></li>
-          <li><article class="c-card c-card--editorial vp-story">
+          <li><article class="c-card c-card--compact vp-story">
             <figure class="u-responsive-media"><img src="https://dca.wharton.upenn.edu/wp-content/uploads/2026/08/Wes-Headshot-at-Event.jpeg" alt="" loading="lazy" decoding="async"></figure>
             <div class="c-card__body">
               <p class="c-eyebrow"><time datetime="2026-08-28">August 28, 2026</time></p><h4 class="c-card__title"><a href="https://mba.wharton.upenn.edu/story/works-program-and-mba-students-expand-access-to-opportunity/">WORKS Program and MBA Students Expand Access to Opportunity</a></h4>
               <p>MBA students teach and mentor incarcerated and formerly incarcerated learners through the Wharton WORKS program.</p><span class="c-card__action" aria-hidden="true">Read story →</span>
-            </div>
-          </article></li>
-          <li><article class="c-card c-card--editorial vp-story">
-            <figure class="u-responsive-media"><img src="https://dca.wharton.upenn.edu/wp-content/uploads/2026/10/MBA-Classroom-Discussion-1-1199x610.jpg" alt="" loading="lazy" decoding="async"></figure>
-            <div class="c-card__body">
-              <p class="c-eyebrow"><time datetime="2026-10-19">October 19, 2026</time></p><h4 class="c-card__title"><a href="https://mba.wharton.upenn.edu/story/15-years-of-the-team-based-discussion/">Inside MBA Admissions: 15 Years of the Team-Based Discussion</a></h4>
-              <p>Why working well with others has been part of how Wharton builds each class, starting with admissions.</p><span class="c-card__action" aria-hidden="true">Read story →</span>
             </div>
           </article></li>
         </ul>
@@ -258,8 +238,8 @@
             <p>Vice Dean Michael Roberts explains how Wharton pairs scale with speed. For more, read the Wharton Magazine cover story <a href="https://magazine.wharton.upenn.edu/issues/fall-winter-2026/why-wharton-why-now/">Why Wharton, Why Now</a>, in which Dean Erika James and program leaders discuss the value of business education in the age of AI.</p>
             <ul class="vp-next" role="list">
               <li><a class="c-button c-button--secondary" href="https://mba.wharton.upenn.edu/events/">Attend an event</a></li>
-              <li><a class="c-button c-button--secondary" href="https://mba.wharton.upenn.edu/attend-coffee-chat/">Join a coffee chat</a></li>
-              <li><a class="c-button c-button--secondary" href="https://mba.wharton.upenn.edu/stories/">Read more MBA stories</a></li>
+              <li><a href="https://mba.wharton.upenn.edu/attend-coffee-chat/">Join a coffee chat</a></li>
+              <li><a href="https://mba.wharton.upenn.edu/stories/">Read more MBA stories</a></li>
             </ul>
           </div>
           <div class="vp-video">

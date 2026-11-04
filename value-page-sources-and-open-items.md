@@ -7,13 +7,11 @@ Checked November 2, 2026. Dates are publication dates from each page. The six-mo
 | Pillar | Story | Published | Status |
 |---|---|---|---|
 | Rigor | [Reflections From a Jacobs Scholar MBA Graduate](https://mba.wharton.upenn.edu/story/reflections-from-a-jacobs-scholar-mba-graduate/) | June 12, 2026 | In window |
-| Rigor | [Meet Wharton's New MBA Vice Dean, Michael Roberts](https://mba.wharton.upenn.edu/story/meet-whartons-new-mba-vice-dean-michael-roberts/) | Aug. 3, 2026 | In window |
 | Rigor | [Inside VIP-X Philadelphia](https://mba.wharton.upenn.edu/story/inside-vip-x-philadelphia-how-wharton-mba-founders-are-scaling-startups/) | Mar. 30, 2026 | **Exception:** about 7 months old |
 | AI, Community | [Wharton's MBA Experience Begins With Teamwork, Leadership, and AI](https://www.wharton.upenn.edu/whartons-mba-experience-begins-with-teamwork-leadership-and-ai/) | Aug. 27, 2026 | In window; card in AI, inline link in Community |
 | AI | [Learning by Building: Inside Wharton's Generative AI Studio](https://mba.wharton.upenn.edu/story/learning-by-building-inside-whartons-generative-ai-studio/) | Sept. 11, 2026 | In window |
 | Community | [Beyond Hollywood](https://mba.wharton.upenn.edu/story/beyond-hollywood-whartons-media-entertainment-trek-builds-something-bigger/) | May 18, 2026 | In window |
 | Community | [WORKS Program and MBA Students Expand Access to Opportunity](https://mba.wharton.upenn.edu/story/works-program-and-mba-students-expand-access-to-opportunity/) | Aug. 28, 2026 | In window |
-| Community | [Inside MBA Admissions: 15 Years of the Team-Based Discussion](https://mba.wharton.upenn.edu/story/15-years-of-the-team-based-discussion/) | Oct. 19, 2026 | In window |
 | Closing | [Why Wharton, Why Now](https://magazine.wharton.upenn.edu/issues/fall-winter-2026/why-wharton-why-now/) (Wharton Magazine) | Oct. 16, 2026 | In window |
 
 VIP-X is the only exception. I used it because few recent stories show rigor in the MBA itself and it has a strong line about professors testing assumptions.
@@ -26,6 +24,8 @@ VIP-X is the only exception. I used it because few recent stories show rigor in 
 | [Wharton Beauty Trek](https://mba.wharton.upenn.edu/story/wharton-beauty-trek-merging-fashion-innovation-and-global-business/) | July 14, 2025 | Past the one-year limit |
 | [Turner Impact Portfolio Challenge](https://mba.wharton.upenn.edu/story/graduate-students-lead-the-future-of-impact-investing-at-turner-impact-portfolio-challenge/) | July 24, 2026 | Eligible backup, but a graduate-student competition and its story image's filename names another school |
 | [Meet Wharton's 2026 Tillman Scholars](https://mba.wharton.upenn.edu/story/from-service-to-impact-meet-whartons-2026-tillman-scholars/) | Nov. 2, 2026 | Eligible, but about service and partly about EMBA students |
+| [Meet Wharton's New MBA Vice Dean, Michael Roberts](https://mba.wharton.upenn.edu/story/meet-whartons-new-mba-vice-dean-michael-roberts/) | Aug. 3, 2026 | Cut when streamlining: a leader profile, and weaker proof of rigor than the two stories kept |
+| [Inside MBA Admissions: 15 Years of the Team-Based Discussion](https://mba.wharton.upenn.edu/story/15-years-of-the-team-based-discussion/) | Oct. 19, 2026 | Cut when streamlining: about admissions more than community |
 
 ## Quotes on the page
 
@@ -34,9 +34,9 @@ VIP-X is the only exception. I used it because few recent stories show rigor in 
 | Michael Roberts | "Entering an MBA program..." | Unpublished transcript | **Needs approval** |
 | Michael Roberts | "That's community, that's not a network." | Unpublished transcript | **Needs approval** |
 | Michael Roberts | "AI has raised the bar..." | [The Wharton AI Advantage](https://www.wharton.upenn.edu/ai-advantage/), published Sept. 10, 2026 | Published |
-| Harry Kong, WG'26 | "Being part of a group..." | Jacobs Scholar story, June 12, 2026 | Published; partial quote |
-| Perri Sucoff, WG'27 | "I think soft skills..." | [Wharton Alumni article](https://alumni.wharton.upenn.edu/uncategorized/through-wharton-works-mba-students-expand-access-to-opportunity/), July 13, 2026 | Published |
-| Carley Mambuca, WG'27 | "It is so important..." | Same Wharton Alumni article | Published |
+| Harry Kong, WG'26 | "Being part of a group..." | Jacobs Scholar story, June 12, 2026 | Published; partial quote. **Cut when streamlining** |
+| Perri Sucoff, WG'27 | "I think soft skills..." | [Wharton Alumni article](https://alumni.wharton.upenn.edu/uncategorized/through-wharton-works-mba-students-expand-access-to-opportunity/), July 13, 2026 | Published. **Cut when streamlining** |
+| Carley Mambuca, WG'27 | "It is so important..." | Same Wharton Alumni article | Published. **Cut when streamlining** |
 | Ami Higuchi, WG'26 | "We made something wonderful..." | Beyond Hollywood, May 18, 2026 | Published; partial quote |
 | Ojú Junaid, WG'26 | "professors who will pressure-test your assumptions" | VIP-X story, Mar. 30, 2026 | Published; short phrase on the card |
 
@@ -53,8 +53,8 @@ VIP-X is the only exception. I used it because few recent stories show rigor in 
 2. **Replace the current page or add a new one?** The [existing value page](https://mba.wharton.upenn.edu/value-wharton-mba/) is in the site navigation. I recommend replacing it at the same URL so it keeps its place and links, but SEO should check first: its ROI and salary copy would go away. If it stays, its alumni counts need fixing because it shows both 108,000+ and 109,000+.
 3. **Can transcript content be used?** Roberts or the MBA team needs to approve every item flagged on the page. The transcript is titled "Unsubmitted Campaign," and its wording is lightly adapted in the definitions.
 4. **Which AI tools can be named?** Roberts mentions Codex and Claude Code; the Pre-Term story says ChatGPT and Claude. The page names neither and says "school-supported AI tools."
-5. **Is the workshop series accurate?** The series with Mollick, Hosanagar, and Rock appears only in the transcript. Confirm the details or cut the sentence.
-6. **Does the intro meet the brief?** The notes ask for why Wharton is better than everything else, but Roberts declines to compare Wharton with other schools in the transcript. The intro makes no comparison, so leadership should confirm that works.
+5. **Does the intro meet the brief?** The notes ask for why Wharton is better than everything else, but Roberts declines to compare Wharton with other schools in the transcript. The intro makes no comparison, so leadership should confirm that works.
+6. **Is "Attend an event" the main next step?** The streamlined page makes it the one button and leaves coffee chats and stories as text links. I chose events because it's the next step already listed first on the page, and no source names a primary action.
 
 ## Assets and content still open
 
@@ -76,6 +76,22 @@ Applied November 4, 2026, using `old-theme` from `wharton-prototype-framework` a
 - **Header and footer links:** copied from the live MBA site on November 4, 2026.
 - **Left out:** site search, the footer's social links and Support Wharton button (no slot in the framework's footer), and the Faculty & Staff and CMS login links (internal). The copyright line is replaced with "Internal draft prototype. Not an official Wharton page."
 - **Fonts and logos:** these load from `martechdev.wharton.upenn.edu`, as the framework specifies, so they depend on that host staying available.
+
+## Streamlining review
+
+Reviewed November 4, 2026, using the framework's Design Decision Framework and landing-page recipes. These changes are cuts and layout only; no new claims were added.
+
+| Change | Why |
+|---|---|
+| Removed the second link in each box and pointed the AI box to `#ai` | Each box had two links, and only the AI box left the page. The AI section title and "Explore the Wharton AI Advantage" still link to the AI page, as the notes ask. |
+| Removed the classroom paragraph in Rigor | Trims the section toward Angela's guidance of 2-3 sentences. Removed text: "Classrooms are built for discussion and group work, so you practice defending an analysis and communicating it well enough to get the resources it needs. Teaching draws on both academic research and faculty work with executives and companies, and what faculty learn there keeps returning to the classroom." |
+| Removed two AI sentences | The recruiter sentence added little, and the workshop sentence couldn't be confirmed. Removed text: "Those are the abilities recruiters will test when they ask how you use AI." and "This fall, Roberts and faculty colleagues Ethan Mollick, Kartik Hosanagar, and Daniel Rock also led a workshop series showing students how they use AI in their own work." |
+| One quote per section instead of two | Gives each section one clear voice. The Kong, Sucoff, and Mambuca quotes are still listed above if you want them back. |
+| Two stories per section, in a smaller side-by-side layout | Keeps the strongest proof and shortens the page. The two cut stories are listed above. |
+| One button at the end, with two text links | The recipes call for one main action rather than several competing ones. See decision 6. |
+| Section titles in bold | The notes ask for this, and the old theme's section headings aren't bold by default. |
+
+Kept as is: the three boxes, the intro, the link-heavy approach, the video at the bottom, and the Why Wharton, Why Now link. The recipes prefer visible sections over tabs or accordions when most readers should see the content, so nothing is hidden behind them.
 
 ## Before going live
 
