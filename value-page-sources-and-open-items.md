@@ -58,8 +58,8 @@ VIP-X is the only exception. I used it because few recent stories show rigor in 
 
 ## Assets and content still open
 
-- **Scale & Speed video:** selected on November 2, 2026, but I still need the embed URL, captions, and a transcript link. The page shows a placeholder until then.
-- **S&P 500 claim:** left off the page. Roberts makes this claim in the transcript, and I found no supporting data, so have it reviewed if the Investment video or claim is used later.
+- **Video:** on November 4, 2026, the embed code you sent replaced the placeholder. It's Vimeo video 1241422384, "Is a Wharton MBA worth the investment?" (The Wharton School, 78 seconds, uploaded Oct. 30, 2026). This replaces the Scale & Speed video selected on November 2. The page text now says Roberts answers that question, based on the title, so please confirm the video is him. Still needed: confirmation that captions are on, and a transcript link under the video.
+- **S&P 500 claim:** left off the page text. Roberts makes this claim in the transcript, and I found no supporting data. I couldn't watch the video, so please check whether it includes that claim before sharing the page widely.
 - **Brian's quotes:** I only have the quotes pasted into the notes, not a separate file or his original links.
 - **Community page:** `mba.wharton.upenn.edu/community/` returns a 404. The page uses Student Life, Clubs & Conferences, Alumni and Network, and stories instead. The notes' question to Casey about Nikolai's community strategy is still open.
 - **Career Report link:** the page uses [/career-report/](https://mba.wharton.upenn.edu/career-report/), but the current value page links to [statistics.mbacareers.wharton.upenn.edu](https://statistics.mbacareers.wharton.upenn.edu/). Please confirm which is preferred.
@@ -91,10 +91,12 @@ Reviewed November 4, 2026, using the framework's Design Decision Framework and l
 | One button at the end, with two text links | The recipes call for one main action rather than several competing ones. See decision 6. |
 | Section titles in bold | The notes ask for this, and the old theme's section headings aren't bold by default. |
 
-Kept as is: the three boxes, the intro, the link-heavy approach, the video at the bottom, and the Why Wharton, Why Now link. The recipes prefer visible sections over tabs or accordions when most readers should see the content, so nothing is hidden behind them.
+Moved on November 4, 2026: the "Hear It From Wharton's Leaders" section, with the video, now sits directly under the three boxes instead of at the bottom.
+
+Kept as is: the three boxes, the intro, the link-heavy approach, and the Why Wharton, Why Now link. The recipes prefer visible sections over tabs or accordions when most readers should see the content, so nothing is hidden behind them.
 
 ## Before going live
 
-- Delete the review bar, flags, placeholder, toggle script, and `noindex` tag.
+- Delete the review bar, flags, toggle script, and `noindex` tag.
 - Move the page-specific styles into the WordPress theme and retest there.
 - Have a person test with a screen reader. I did not run one.
