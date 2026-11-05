@@ -100,3 +100,13 @@ Kept as is: the three boxes, the intro, the link-heavy approach, and the Why Wha
 - Delete the review bar, flags, toggle script, and `noindex` tag.
 - Move the page-specific styles into the WordPress theme and retest there.
 - Have a person test with a screen reader. I did not run one.
+
+## Round 3 edits (Nov. 5, 2026)
+
+- **Review tool removed:** the yellow review bar, its hide/show button, and every yellow flag are gone from the page. The open items below are the only record now. The `noindex` tag stays until the page is approved.
+- **Intro, three boxes, ROI section, AI and community copy:** replaced with the wording you supplied. The three boxes are now flip boxes. Each back has a small "Jump to section" link so touch and keyboard users can still reach the pillar.
+- **Quotes and dates:** the quote in each pillar's right column and the dates on all six story cards were removed. Body text now runs full width.
+- **Leaders section:** now "The ROI of a Wharton MBA." The coffee chat link was removed from the page; "Attend an event" stays.
+- **Story swap:** "WORKS Program and MBA Students Expand Access to Opportunity" (Aug. 28, 2026) was replaced by [In Times of Need](https://magazine.wharton.upenn.edu/issues/spring-summer-2024/in-times-of-need/) from Wharton Magazine. **Published April 19, 2024, well outside the one-year limit; kept at your request.** Its card text is the page's own description, and the card image is the page's social image from Wharton Magazine's image host. Confirm usage rights.
+- **Quotes no longer shown on the page:** the Roberts, Roberts (AI Advantage), and Higuchi quotes. The Roberts community line now appears on the third box as "That's community — that's not a network." (em dash as supplied; the transcript has a comma). It still comes from the unpublished transcript and needs approval, and nothing on the page marks that anymore.
+- **Wording from the transcript, now unflagged:** the three flip-box backs, the Rigor body text, and the new AI and ROI copy draw on the unpublished transcript or on your supplied text. Treat all of it as needing Roberts or MBA team approval.
