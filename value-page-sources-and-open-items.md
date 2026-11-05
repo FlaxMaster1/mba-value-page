@@ -113,7 +113,7 @@ Kept as is: the three boxes, the intro, the link-heavy approach, and the Why Wha
 
 ## Round 4 edits (Nov. 5, 2026)
 
-- **Flip box photos:** each box now has a photo under a blue gradient (#004785 to #011f5b), with a darker gradient on the back for text contrast. Titles sit on two lines. The photos are existing Wharton images already on this page, so they repeat lower down: Rigor uses the Jacobs Scholar image, AI uses the Generative AI Studio meeting image, and Community uses the Pre-Term cohort image. Confirm usage rights, or send other photos.
+- **Flip box photos:** each box now has a photo under a blue gradient (#004785 to #011f5b), with a darker gradient on the back for text contrast. Titles sit on two lines. The photos are existing Wharton images already on this page, so they repeat lower down: Rigor uses the VIP-X story image (changed from the Jacobs Scholar image on Nov. 5), AI uses the Generative AI Studio meeting image, and Community uses the Pre-Term cohort image. Confirm usage rights, or send other photos.
 - **Story swap:** "In Times of Need" was replaced by [Expanding Your Circle](https://magazine.wharton.upenn.edu/digital/expanding-your-circle/) from Wharton Magazine. **Published Aug. 15, 2025, about 12 months and 3 weeks ago, just past the one-year limit; kept at your request.** Its card text is the page's own description, and the card image is the page's social image.
 - **ROI section:** the "Attend an event" button was removed, so that section has no call to action. This reverses decision 6 above.
 
