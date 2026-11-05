@@ -27,11 +27,11 @@
   .vp-flip { perspective: 1200px; min-inline-size: 0; }
   .vp-flip__inner { display: grid; position: relative; block-size: 100%; transform-style: preserve-3d; transition: transform 0.6s ease; }
   .vp-flip:hover .vp-flip__inner, .vp-flip:focus-within .vp-flip__inner, .vp-flip.is-flipped .vp-flip__inner { transform: rotateY(180deg); }
-  .vp-flip__face { grid-area: 1 / 1; display: flex; flex-direction: column; justify-content: center; min-block-size: 18rem; padding: 2rem 1.75rem; color: #fff; background: linear-gradient(to bottom, #004785, #011f5b); backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+  .vp-flip__face { grid-area: 1 / 1; display: flex; flex-direction: column; justify-content: center; min-block-size: 18rem; padding: 2rem 1.75rem; color: #fff; background: linear-gradient(to bottom, rgba(0, 71, 133, 0.72), rgba(1, 31, 91, 0.94)), var(--vp-photo) center / cover no-repeat #011f5b; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
   .vp-flip__front { align-items: center; text-align: center; }
-  .vp-flip__back { transform: rotateY(180deg); gap: 1.25rem; }
+  .vp-flip__back { transform: rotateY(180deg); gap: 1.25rem; background: linear-gradient(to bottom, rgba(0, 71, 133, 0.88), rgba(1, 31, 91, 0.97)), var(--vp-photo) center / cover no-repeat #011f5b; }
   .vp-flip__back p { margin: 0; font-size: 1.125rem; line-height: 1.5; }
-  .vp-flip__title { margin: 0; color: #fff; font-size: 1.75rem; line-height: 1.15; text-transform: uppercase; letter-spacing: 0.02em; }
+  .vp-flip__title { margin: 0; color: #fff; font-size: clamp(1.375rem, 5.2vw, 1.75rem); white-space: nowrap; text-shadow: 0 1px 6px rgba(1, 31, 91, 0.6); line-height: 1.15; text-transform: uppercase; letter-spacing: 0.02em; }
   .vp-flip__link { align-self: flex-start; color: #fff; font-family: var(--font-family-sans-bold); text-decoration: underline; text-underline-offset: 2px; }
   .vp-flip__link:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
   .vp-body { max-inline-size: none; }
@@ -98,21 +98,21 @@
 
         <h2 id="vp-pillars-heading" style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;">Three pillars of a Wharton MBA</h2>
         <ul class="p-card-grid p-card-grid--editorial vp-list" role="list" style="--grid-columns: 3">
-          <li><div class="vp-flip">
+          <li><div class="vp-flip" style="--vp-photo: url('https://dca.wharton.upenn.edu/wp-content/uploads/2026/06/Harry-Kong-and-Bruce-Jacobs-2-1199x531.jpg');">
             <div class="vp-flip__inner">
-              <div class="vp-flip__face vp-flip__front"><h3 class="vp-flip__title">Invaluable Rigor</h3></div>
+              <div class="vp-flip__face vp-flip__front"><h3 class="vp-flip__title">Invaluable<br>Rigor</h3></div>
               <div class="vp-flip__face vp-flip__back"><p>Rigor is essential to gaining maximum value from an MBA. The repetition, the critical thinking, and the judgment developed in challenging situations are the muscles that elevate you in an interview or career.</p><a class="vp-flip__link" href="#rigor" aria-label="Jump to the Invaluable Rigor section">Jump to section ↓</a></div>
             </div>
           </div></li>
-          <li><div class="vp-flip">
+          <li><div class="vp-flip" style="--vp-photo: url('https://dca.wharton.upenn.edu/wp-content/uploads/2026/09/GAIL-Studio-Meeting-1199x536.jpg');">
             <div class="vp-flip__inner">
-              <div class="vp-flip__face vp-flip__front"><h3 class="vp-flip__title">Decision Making in the Age of AI</h3></div>
+              <div class="vp-flip__face vp-flip__front"><h3 class="vp-flip__title">Decision Making<br>in the Age of AI</h3></div>
               <div class="vp-flip__face vp-flip__back"><p>AI can do the analysis, but you remain responsible for your decisions and actions. Wharton prepares leaders to pair business savvy with technological expertise, use AI with good judgment, and stand behind the outcome.</p><a class="vp-flip__link" href="#ai" aria-label="Jump to the Decision Making in the Age of AI section">Jump to section ↓</a></div>
             </div>
           </div></li>
-          <li><div class="vp-flip">
+          <li><div class="vp-flip" style="--vp-photo: url('https://www.wharton.upenn.edu/wp-content/uploads/2026/08/highlight_05-600x500.jpg');">
             <div class="vp-flip__inner">
-              <div class="vp-flip__face vp-flip__front"><h3 class="vp-flip__title">Community Above All Else</h3></div>
+              <div class="vp-flip__face vp-flip__front"><h3 class="vp-flip__title">Community Above<br>All Else</h3></div>
               <div class="vp-flip__face vp-flip__back"><p>The Wharton community is defined by the instinct to give back: people sharing their time and expertise with only the expectation to empower others with knowledge. In Michael Roberts’ words, “That’s community — that’s not a network.”</p><a class="vp-flip__link" href="#community" aria-label="Jump to the Community Above All Else section">Jump to section ↓</a></div>
             </div>
           </div></li>
@@ -127,9 +127,6 @@
             <h2 id="closing-heading">The ROI of a Wharton MBA</h2>
             <p>What makes a Wharton MBA worth the investment? Vice Dean and finance professor Michael Roberts makes the case for its long-term financial value, explaining why he believes the returns can extend well beyond the classroom, and why the relationships and connections students build add another dimension to that investment.</p>
             <p>For more perspectives on the value of business education, read Wharton Magazine’s <a href="https://magazine.wharton.upenn.edu/issues/fall-winter-2026/why-wharton-why-now/">Why Wharton, Why Now</a>.</p>
-            <ul class="vp-next" role="list">
-              <li><a class="c-button c-button--secondary" href="https://mba.wharton.upenn.edu/events/">Attend an event</a></li>
-            </ul>
           </div>
           <div><div class="vp-video"><iframe src="https://player.vimeo.com/video/1241422384?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Is a Wharton MBA worth the investment?"></iframe></div></div>
         </div>
@@ -212,10 +209,10 @@
             </div>
           </article></li>
           <li><article class="c-card c-card--compact vp-story">
-            <figure class="u-responsive-media"><img src="https://ekb6dgzykgb.exactdn.com/wp-content/uploads/2024/04/Alumni-Supporting-Careers.jpg" alt="" loading="lazy" decoding="async"></figure>
+            <figure class="u-responsive-media"><img src="https://ekb6dgzykgb.exactdn.com/wp-content/uploads/2025/08/2025circles_Chris_Philpot_Wharton_5574x3696_acf_cropped.jpg" alt="" loading="lazy" decoding="async"></figure>
             <div class="c-card__body">
-              <h4 class="c-card__title"><a href="https://magazine.wharton.upenn.edu/issues/spring-summer-2024/in-times-of-need/">In Times of Need</a></h4>
-              <p>Alumni Supporting Careers offers ways for Wharton alumni to help students and fellow graduates find jobs during periods of uncertainty.</p><span class="c-card__action" aria-hidden="true">Read story →</span>
+              <h4 class="c-card__title"><a href="https://magazine.wharton.upenn.edu/digital/expanding-your-circle/">Expanding Your Circle</a></h4>
+              <p>The growing Wharton Circles program, including Women’s Circles and MBA Circles, fosters new connections for alumni.</p><span class="c-card__action" aria-hidden="true">Read story →</span>
             </div>
           </article></li>
         </ul>
